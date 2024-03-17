@@ -31,3 +31,19 @@ body {
     text-wrap: balance;
   }
 }
+
+.photo {
+  width: 100%;
+}
+
+.photo.filtered {
+  filter: brightness(110%) contrast(120%) grayscale(10%) hue-rotate(30deg) saturate(110%);
+}
+
+label span {
+  float: right;
+}
+
+.filters {
+  margin-top: 8rem;
+}
